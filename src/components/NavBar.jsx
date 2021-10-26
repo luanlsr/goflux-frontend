@@ -6,7 +6,7 @@ class NavBar extends Component {
     return (
       <Navbar bg="primary" variant="dark">
         <Container>
-        <Navbar.Brand href="/home">
+        <Navbar.Brand href="/">
           <img
             src="https://portal.goflux.com.br/assets/images/logo_branco.png"
             width="120"

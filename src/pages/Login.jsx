@@ -1,24 +1,22 @@
 import React from 'react'
 import { Button, Form, Container, Row, Col } from 'react-bootstrap';
+import '../styles/Login.css'
 
 export default function Login() {
   return (
-    <Container className="justify-content-md-center">
+    <Container className="login-container">
+      <img className='logoLogin' src="https://portal.goflux.com.br/assets/images/logo_branco.png" alt="" />
+      <h1>LOGIN</h1>
       <Row>
-        <Col className="justify-content-md-center" xs={6} md={4}>
+        <Col>
           <Form>
             <Form.Group className="mb-3" controlId="formBasicEmail">
-              <Form.Label>Email</Form.Label>
-              <Form.Control type="email" placeholder="Enter email" />
+              <Form.Control type="email" placeholder="Email" />
             </Form.Group>
             <Form.Group className="mb-3" controlId="formBasicPassword">
-              <Form.Label>Senha</Form.Label>
-              <Form.Control type="password" placeholder="Password" />
+              <Form.Control type="password" placeholder="Senha" />
             </Form.Group>
-            <Form.Group className="mb-3" controlId="formBasicCheckbox">
-              <Form.Check type="checkbox" label="Check me out" />
-            </Form.Group>
-            <Button variant="primary" type="submit">
+            <Button className="mb-6 btn-login" variant="primary" type="submit">
               Entrar
             </Button>
           </Form>

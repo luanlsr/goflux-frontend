@@ -2,7 +2,7 @@ import React from 'react'
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 
-import './Forms.css';
+import '../styles/Forms.css';
 
 export default function Forms() {
   return (

@@ -1,0 +1,11 @@
+.Shippers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 300px auto;
+}
+
+.Shippers h1 {
+  font-size: 80px;
+  color: white;
+}
