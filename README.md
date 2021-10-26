@@ -29,7 +29,6 @@ Install the dependencies and devDependencies and start the server.
 ### Front-end
 
 ```sh
-cd frontend/goFlux
 npm i
 npm start
 ```
